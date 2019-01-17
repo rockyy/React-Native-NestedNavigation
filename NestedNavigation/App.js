@@ -17,4 +17,4 @@ const TabNavigator = createBottomTabNavigator({
 
 const stackNavigationLogin = createStackNavigator({ Login, TabNavigator},{headerMode: 'none'});
 
-export default createAppContainer(stackNavigationLogin,TabNavigator,{headerMode: 'none'});
+export default createAppContainer(stackNavigationLogin);
